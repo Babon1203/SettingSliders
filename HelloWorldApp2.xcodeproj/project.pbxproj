@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		B31B88052AC69BFD00DC35E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31B88042AC69BFD00DC35E5 /* AppDelegate.swift */; };
 		B31B88072AC69BFD00DC35E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31B88062AC69BFD00DC35E5 /* SceneDelegate.swift */; };
-		B31B88092AC69BFD00DC35E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31B88082AC69BFD00DC35E5 /* ViewController.swift */; };
+		B31B88092AC69BFD00DC35E5 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31B88082AC69BFD00DC35E5 /* SettingViewController.swift */; };
 		B31B880C2AC69BFD00DC35E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31B880A2AC69BFD00DC35E5 /* Main.storyboard */; };
 		B31B880E2AC69BFE00DC35E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31B880D2AC69BFE00DC35E5 /* Assets.xcassets */; };
 		B31B88112AC69BFE00DC35E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31B880F2AC69BFE00DC35E5 /* LaunchScreen.storyboard */; };
+		B386A2262AE044FA00D845E9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B386A2252AE044FA00D845E9 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B31B88012AC69BFD00DC35E5 /* HelloWorldApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31B88042AC69BFD00DC35E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B31B88062AC69BFD00DC35E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B31B88082AC69BFD00DC35E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B31B88082AC69BFD00DC35E5 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		B31B880B2AC69BFD00DC35E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B31B880D2AC69BFE00DC35E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B31B88102AC69BFE00DC35E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B31B88122AC69BFE00DC35E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B386A2252AE044FA00D845E9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				B31B88042AC69BFD00DC35E5 /* AppDelegate.swift */,
 				B31B88062AC69BFD00DC35E5 /* SceneDelegate.swift */,
-				B31B88082AC69BFD00DC35E5 /* ViewController.swift */,
+				B31B88082AC69BFD00DC35E5 /* SettingViewController.swift */,
+				B386A2252AE044FA00D845E9 /* FirstViewController.swift */,
 				B31B880A2AC69BFD00DC35E5 /* Main.storyboard */,
 				B31B880D2AC69BFE00DC35E5 /* Assets.xcassets */,
 				B31B880F2AC69BFE00DC35E5 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B31B88092AC69BFD00DC35E5 /* ViewController.swift in Sources */,
+				B31B88092AC69BFD00DC35E5 /* SettingViewController.swift in Sources */,
 				B31B88052AC69BFD00DC35E5 /* AppDelegate.swift in Sources */,
 				B31B88072AC69BFD00DC35E5 /* SceneDelegate.swift in Sources */,
+				B386A2262AE044FA00D845E9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloWorldApp2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -323,6 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloWorldApp2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
